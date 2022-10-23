@@ -4,7 +4,7 @@
 
 <header>
   <h1 class="title">{pageTitle}</h1>
-  <input type="text" class="searchbar" placeholder="Search for consultants...">
+  <!-- <input type="text" class="searchbar" placeholder="Search for consultants..."> -->
 </header>
 
 <style>

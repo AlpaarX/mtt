@@ -19,7 +19,7 @@
     font-size: 36px;
     font-weight: 200;
   }
-  .searchbar {
+  /* .searchbar {
     border: none;
     border-radius: 10px;
     background-color: #373737;
@@ -29,7 +29,7 @@
     padding: 5px 10px;
 
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
-  }
+  } */
   @media (max-width: 768px) {
     header {
       justify-content: center;

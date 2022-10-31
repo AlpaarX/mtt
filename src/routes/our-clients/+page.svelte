@@ -1,13 +1,13 @@
 <script>
   import Subheader from "../../lib/Subheader.svelte";
 
-  let pageTitle = 'Who we are'
+  let pageTitle = 'Our clients'
 </script>
 
 <svelte:head><title>{pageTitle} • Mtt</title></svelte:head>
 <div class="main">
   <Subheader pageTitle={pageTitle}/>
-  <h1>We are cuties</h1>
+  <h1>Cuties</h1>
   <img src="/dog.jpeg" alt="dog">
 </div>
 

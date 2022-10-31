@@ -1,7 +1,7 @@
 <script>
   import Subheader from "../../lib/Subheader.svelte";
 
-  let pageTitle = 'Who we are'
+  let pageTitle = 'HRCI Certification'
 </script>
 
 <svelte:head><title>{pageTitle} • Mtt</title></svelte:head>

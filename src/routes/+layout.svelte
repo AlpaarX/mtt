@@ -9,9 +9,9 @@
   <a href="/"><img src="/Logo.png" alt="logo"></a>
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <svg class="hamburger" viewBox="0 0 100 80" width="40" height="40">
-    <rect width="100" height="10" rx="5" fill="white"></rect>
-    <rect y="30" width="100" height="10" rx="5" fill="white"></rect>
-    <rect y="60" width="100" height="10" rx="5" fill="white"></rect>
+    <rect width="100" height="5" rx="5" fill="white"></rect>
+    <rect y="30" width="100" height="5" rx="5" fill="white"></rect>
+    <rect y="60" width="100" height="5" rx="5" fill="white"></rect>
   </svg>
 </header>
 <div class="main">

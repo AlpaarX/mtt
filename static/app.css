@@ -373,7 +373,7 @@ html {
     background-color: #0f0f0f;
 }
 
-h1, a {
+h1, a, p {
     color: white;
     text-decoration: none;
 }

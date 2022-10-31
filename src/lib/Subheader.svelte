@@ -4,7 +4,9 @@
 
 <header>
   <h1 class="title">{pageTitle}</h1>
+  {#if pageTitle == "Our consultants"}
   <input type="text" class="searchbar" placeholder="Search for consultants...">
+  {/if}
 </header>
 
 <style>
@@ -34,6 +36,7 @@
     header {
       justify-content: center;
       flex-direction: column;
+      text-align: center;
     }
 
   }

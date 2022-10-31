@@ -8,7 +8,7 @@
 <header>
   <a href="/"><img src="/Logo.png" alt="logo"></a>
   <!-- svelte-ignore a11y-click-events-have-key-events -->
-  <svg class="hamburger" viewBox="0 0 100 80" width="40" height="40">
+  <svg class="hamburger" viewBox="0 0 100 80" width="30" height="30">
     <rect width="100" height="5" rx="5" fill="white"></rect>
     <rect y="30" width="100" height="5" rx="5" fill="white"></rect>
     <rect y="60" width="100" height="5" rx="5" fill="white"></rect>
@@ -36,7 +36,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 0 3rem;
-    background: #121212; 
+    background: #0f0f0f; 
   }
   header img {
     width: 10rem;

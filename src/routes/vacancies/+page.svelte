@@ -7,8 +7,7 @@
 <svelte:head><title>{pageTitle} • Mtt</title></svelte:head>
 <div class="main">
   <Subheader pageTitle={pageTitle}/>
-  <h1>We are cuties</h1>
-  <img src="/dog.jpeg" alt="dog">
+  <h1>Work in progress</h1>
 </div>
 
 <style>

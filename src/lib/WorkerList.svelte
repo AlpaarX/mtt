@@ -46,6 +46,7 @@
     flex-wrap: wrap;
     gap: 10px;
     transition: 0.05s ease;
+    max-width: 1700px;
   }
 
   @media (max-width: 768px) {

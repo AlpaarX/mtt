@@ -8,8 +8,7 @@
 <div class="main">
   <Subheader pageTitle={pageTitle}/>
   <div class="hero">
-    <img src="/dog.jpeg" alt="dog">
-    <div class="text">
+    <div class="content">
       <p>
         In the world of business and technology, we believe that our value proposition is to deliver trust. 
         Its been an incredible journey for us till date in sourcing quality candidates for the companies’ competitive recruitment needs. 
@@ -26,10 +25,6 @@
     flex-direction: column;
     width: 100%;
   }
-  .main img {
-    width: 50%;
-    height: 100%;
-  }
   .hero {
     display: flex;
     flex-direction: row;
@@ -37,9 +32,9 @@
   p {
     color: white;
     font-size: 2rem;
-    margin: 0 20px;
-    font-weight: 300;
+    font-weight: 600;
     text-align: left;
     line-height: 2.5rem;
+    padding: 0 1rem 0 0;
   }
 </style>

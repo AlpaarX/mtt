@@ -132,7 +132,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-
+    justify-content: space-around;
   }
   @media (max-width: 768px)
   {
@@ -152,7 +152,7 @@
     flex-direction: column;
     gap: 1rem;
 
-    background-color: #373737;
+    background-color: #262626;
   }
   .card ul {
     line-height: 32px;

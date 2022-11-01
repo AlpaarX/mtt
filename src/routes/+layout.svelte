@@ -50,6 +50,10 @@
   .main {
     display: flex;
     flex-direction: row;
+    width: 100%;
+  }
+  .slot {
+    flex-grow: 1;
   }
   @media screen and (max-width: 768px) {
     header {

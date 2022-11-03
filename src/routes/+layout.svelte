@@ -103,7 +103,7 @@
   .bg {
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     z-index: 9998;
     background-color: rgba(0, 0, 0, 0.4);
   }
@@ -115,7 +115,7 @@
   .slot {
     flex-grow: 1;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     header {
       justify-content: space-between;
     }

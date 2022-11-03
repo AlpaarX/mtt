@@ -32,7 +32,7 @@
     
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     header {
       justify-content: center;
       flex-direction: column;

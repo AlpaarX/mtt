@@ -50,7 +50,7 @@
     justify-content: center;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     .main {
       justify-content: center;
     }

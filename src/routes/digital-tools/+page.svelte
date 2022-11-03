@@ -91,7 +91,7 @@
     display: flex;
     flex-direction: row;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     .video-card {
       flex-direction: column-reverse;
     }
@@ -165,7 +165,7 @@
   .card .content {
     line-height: 24px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     .card-container {
       justify-content: center;
     }

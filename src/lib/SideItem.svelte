@@ -19,7 +19,7 @@ function openMenu() {
     font-size: 1.5rem;
     text-align: center;
     user-select: none;
-    min-width: max-content;
+    width: 12rem;
 
     transition: 0.08s ease-in-out;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);

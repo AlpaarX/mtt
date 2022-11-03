@@ -134,7 +134,7 @@
     gap: 1rem;
     justify-content: space-around;
   }
-  @media (max-width: 768px)
+  @media (max-width: 1000px)
   {
     .card-container {
       justify-content: center;

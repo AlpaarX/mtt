@@ -1,38 +1,12 @@
+<script>
+	import {page} from "$app/stores"
+</script>
+
 <footer>
-	<a href="#consultants">
-		<!-- <i class="fa-regular fa-circle-user" /> -->
-		<span>Consultants</span>
-	</a>
-
-	<a href="#services">
-		<!-- <i class="fa-regular fa-list" /> -->
-		<span>Services</span>
-	</a>
-
-	<!-- <a href="/">
-		<i class="fa-solid fa-house-blank" />
-		<span>Home</span>
-	</a> -->
-
-	<a href="#vacancies">
-		<!-- <i class="fa-regular fa-user-tie" /> -->
-		<span>Vacancies</span>
-	</a>
-
-	<!-- <a href="#hrci">
-		<i class="fa-regular fa-file-certificate" />
-		<span>Certification</span>
-	</a> -->
-
-	<!-- <a href="#digitaltools">
-		<i class="fa-regular fa-screwdriver-wrench" />
-		<span>Digital Tools</span>
-	</a> -->
-
-	<a href="#clients">
-		<!-- <i class="fa-regular fa-users" /> -->
-		<span>Clients</span>
-	</a>
+	<a class:active={$page.url.hash === '#consultants'} href="/#consultants">Consultants</a>
+	<a class:active={$page.url.hash === '#services'} href="/#services">Services</a>
+	<a class:active={$page.url.hash === '#vacancies'} href="/#vacancies">Vacancies</a>
+	<a class:active={$page.url.hash === '#clients'} href="/#clients">Our clients</a>
 
 	<!-- <a href="#about">About</a> -->
 </footer>
@@ -58,11 +32,10 @@
 		align-items: center;
 		text-align: center;
 		padding: 1.2rem 0;
-	}
-	footer span {
 		color: var(--text-secondary);
+		font-weight: 500;
 	}
-	footer span:active {
+	.active {
 		color: var(--text-primary);
 	}
 

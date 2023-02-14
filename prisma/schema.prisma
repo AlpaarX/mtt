@@ -6,12 +6,58 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = "file:./dev.sqlite"
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model Article {
+  id      Int    @id @default(autoincrement())
+  title   String
+  content String
+  isCreated DateTime
+}
+
+model Consultant {
+  id          Int    @id @default(autoincrement())
+  name        String
+  description String
+}
+
+model Vacancy {
   id Int @id @default(autoincrement())
   title String
-  content String
+  description String
+  isCreated DateTime
+}
+
+model User {
+  id       String    @id @unique
+  name     String
+  username String    @unique
+  session  Session[]
+  Key      Key[]
+
+  @@map("user")
+}
+
+model Session {
+  id             String @id @unique
+  user_id        String
+  active_expires BigInt
+  idle_expires   BigInt
+  user           User   @relation(references: [id], fields: [user_id], onDelete: Cascade)
+
+  @@index([user_id])
+  @@map("session")
+}
+
+model Key {
+  id              String  @id @unique
+  hashed_password String?
+  user_id         String
+  primary         Boolean
+  user            User    @relation(references: [id], fields: [user_id], onDelete: Cascade)
+
+  @@index([user_id])
+  @@map("key")
 }

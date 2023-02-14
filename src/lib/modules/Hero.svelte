@@ -26,19 +26,13 @@
 		letter-spacing: -0.02em;
 		margin-bottom: 36px;
 	}
-	@media screen and (max-width: 991px) {
-		.hero h1 {
-			font-size: 72px;
-			line-height: 72px;
-		}
+	.hero h3 {
+		color: var(--text-secondary);
+		font-size: 32px;
+		line-height: 40px;
+		font-weight: 600;
+		letter-spacing: -0.02em;
 	}
-	@media screen and (max-width: 767px) {
-		.hero h1 {
-			font-size: 54px;
-			line-height: 54px;
-		}
-	}
-
 	.hero h5 {
 		color: #ff715b;
 		margin-bottom: 24px;
@@ -46,11 +40,27 @@
 		line-height: 28px;
 		font-weight: 600;
 	}
-	.hero h3 {
-		color: hsla(0, 0%, 100%, 0.5);
-		font-size: 32px;
-		line-height: 40px;
-		font-weight: 600;
-		letter-spacing: -0.02em;
+	@media screen and (max-width: 991px) {
+		.hero h1 {
+			font-size: 72px;
+			line-height: 72px;
+		}
+		.hero h3 {
+			font-size: 32px;
+			line-height: 32px;
+		}
 	}
+	@media screen and (max-width: 767px) {
+		.hero h1 {
+			font-size: 52px;
+			line-height: 52px;
+		}
+		.hero h3 {
+			font-size: 32px;
+			line-height: 38px;
+		}
+	}
+	
+
+	
 </style>

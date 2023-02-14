@@ -20,7 +20,6 @@
         padding: 1.5rem;
         text-align: center;
         max-width: 422px;
-        
     }
     .card img {
         width: 150px;

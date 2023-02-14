@@ -136,7 +136,6 @@
 		gap: 0.5rem;
 		border-radius: 12px;
 		padding: 6px;
-		max-height: 450px;
 	}
 	.tabs-wrapper :global(.tab) {
 		background-color: var(--primary);
@@ -183,7 +182,7 @@
 			grid-template-columns: 0.5fr 2fr;
 		}
 		.tabs-wrapper :global(.tab) {
-			padding: 1rem 0;
+			padding: 1.5rem 0;
 			font-size: 1rem;
 		}
 		.tabs-wrapper :global(.panels) {

@@ -9,10 +9,10 @@
 	<div class="bottom">
 		<p>2023 © Copyright Mtt LLC</p>
 		<div class="socials">
-			<a href="https://www.linkedin.com/company/mtt-llc/" target="_blank" rel="noreferrer"
+			<a href="https://www.instagram.com/mtt.az/" target="_blank" rel="noreferrer"
 				><img src="social-icon/instagram.svg" alt="Instagram" /></a
 			>
-			<a href="https://www.instagram.com/mtt.az/" target="_blank" rel="noreferrer"
+			<a href="https://www.linkedin.com/company/mtt-llc/" target="_blank" rel="noreferrer"
 				><img src="social-icon/linkedin.svg" alt="LinkedIn" /></a
 			>
 		</div>

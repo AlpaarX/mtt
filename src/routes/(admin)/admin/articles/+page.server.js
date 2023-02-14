@@ -1,12 +1,4 @@
-/** @type {import('./$types').Actions} */
 import { prisma } from '$lib/server/prisma';
-
-// /** @type {import('./$types').PageServerLoad} */
-// export async function load() {
-// 	return {
-// 		articles: await prisma.article.findMany()
-// 	};
-// }
 
 export const actions = {
 	createArticle: async ({ request }) => {

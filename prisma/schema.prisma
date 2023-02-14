@@ -1,6 +1,9 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
+// provider = "sqlite"
+//   url      =  "file:./dev.sqlite"
+
 generator client {
   provider = "prisma-client-js"
 }
@@ -11,9 +14,9 @@ datasource db {
 }
 
 model Article {
-  id      Int    @id @default(autoincrement())
-  title   String
-  content String
+  id        Int      @id @default(autoincrement())
+  title     String
+  content   String
   isCreated DateTime
 }
 
@@ -24,10 +27,12 @@ model Consultant {
 }
 
 model Vacancy {
-  id Int @id @default(autoincrement())
-  title String
+  id          Int      @id @default(autoincrement())
+  title       String
+  company     String
   description String
-  isCreated DateTime
+  location    String
+  isCreated   DateTime @default(now())
 }
 
 model User {

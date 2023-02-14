@@ -3,6 +3,7 @@
 	import Hero from '$lib/modules/Hero.svelte';
 	import ServicesTabs from '$lib/modules/Services/ServicesTabs.svelte';
 	import Clients from '$lib/modules/Clients/Clients.svelte';
+	import VacanciesList from '$lib/modules/Vacancies/VacanciesList.svelte'
 </script>
 
 
@@ -16,6 +17,7 @@
 		<h1 id="hrci">HRCI Certification</h1>
 		<h1 id="digitaltools">Digital Tools</h1>
 		<h1 id="vacancies">Vacancies</h1>
+		<VacanciesList />
 		<h1 id="clients">Our Clients</h1>
 		<Clients />
 	</section>

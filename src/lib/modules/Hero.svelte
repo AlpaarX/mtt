@@ -52,12 +52,12 @@
 	}
 	@media screen and (max-width: 767px) {
 		.hero h1 {
-			font-size: 52px;
+			font-size: 42px;
 			line-height: 52px;
 		}
 		.hero h3 {
-			font-size: 32px;
-			line-height: 38px;
+			font-size: 26px;
+			line-height: 26px;
 		}
 	}
 	

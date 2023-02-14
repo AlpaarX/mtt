@@ -3,8 +3,8 @@
 	$: ({ articles } = data);
 </script>
 
-<h2>Articles:</h2>
 <div class="grid">
+	<h1>Articles</h1>
 	<div>
 		{#each articles as article}
 			<article>
@@ -15,11 +15,11 @@
 					</form>
 				</div>
 				<div class="art-content">
-                    <header>{article.title}</header>
-				<p>
-					{article.content}
-				</p>
-                </div>
+					<header>{article.title}</header>
+					<p>
+						{article.content}
+					</p>
+				</div>
 			</article>
 		{/each}
 	</div>
@@ -78,13 +78,13 @@
 		border-radius: 12px 12px 0 0;
 		user-select: none;
 	}
-    article .art-content {
-        padding: 0 1rem 1rem 1rem;
-        color: var(--text-secondary);
-    }
-    article .art-content header {
-        color: var(--text-primary);
-    }
+	article .art-content {
+		padding: 0 1rem 1rem 1rem;
+		color: var(--text-secondary);
+	}
+	article .art-content header {
+		color: var(--text-primary);
+	}
 	.controls button {
 		background-color: #ff705b;
 		color: var(--text-primary);

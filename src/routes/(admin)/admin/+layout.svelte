@@ -6,7 +6,7 @@
 	<title>More Than Trust | mtt</title>
 </svelte:head>
 <div class="grid">
-	<SideMenu {data}/>
+		<SideMenu {data}/>
 	<main>
 		<slot></slot>
 	</main>
@@ -15,7 +15,7 @@
 <style>
 	.grid {
 		display: grid;
-		grid-template-columns: 1.5fr 10fr;
+		grid-template-columns: 1fr 10fr;
 		height: 100%;
     }
     main {

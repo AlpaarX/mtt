@@ -1,7 +1,6 @@
 <script>
 	import { page } from '$app/stores';
 	export let data;
-	console.log(data.user);
 </script>
 
 <div class="side-menu">
@@ -14,11 +13,6 @@
 				<div class:active={$page.url.pathname === '/admin/dashboard'}>
 					<img src="" alt="" />
 					<p>Dashboard</p>
-				</div>
-			</a><a href="/admin/analytics">
-				<div class:active={$page.url.pathname === '/admin/analytics'}>
-					<img src="" alt="" />
-					<p>Analytics</p>
 				</div>
 			</a><a href="/admin/articles">
 				<div class:active={$page.url.pathname === '/admin/articles'}>
@@ -52,11 +46,6 @@
 <style>
 	.side-menu {
 		background-color: var(--secondary);
-		width: 218px;
-		display: sticky;
-		left: 0;
-		top: 0;
-		height: 100vh;
 	}
 	.flex-wrapper {
 		display: flex;

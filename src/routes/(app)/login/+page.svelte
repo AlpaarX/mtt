@@ -1,6 +1,5 @@
 <script>
 	import Container from '$lib/ui/Container.svelte';
-	import PrimaryButton from '../../../lib/ui/PrimaryButton.svelte';
 </script>
 
 <form method="POST">

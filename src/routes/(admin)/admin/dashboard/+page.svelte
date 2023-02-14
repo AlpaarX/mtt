@@ -1,20 +1,21 @@
 <script>
-    // your script goes here
+	// your script goes here
 
-	import Container from "$lib/ui/Container.svelte";
-
+	import Container from '$lib/ui/Container.svelte';
 </script>
 
+<h1>Dashboard</h1>
 <div class="test">
-    <Container>
-        <h1>Hello, World!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni debitis incidunt numquam nisi earum suscipit eaque! Quisquam ipsum rerum beatae!</p>
-    </Container>
+	<Container>
+		<h1>Привет!</h1>
+		<p>
+			Скоро дашборд будет готов!
+		</p>
+	</Container>
 </div>
 
 <style>
-    .test {
-        text-align: center;
-    }
+	.test {
+		text-align: center;
+	}
 </style>
-

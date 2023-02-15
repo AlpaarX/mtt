@@ -11,7 +11,7 @@
 	<h1>{title}</h1>
 	<h5>{company}</h5>
 	<h5>{location}</h5>
-	<!-- <p>{description}</p> -->
+	<p>{description}</p>
 
 	<p>{dayjs(isCreated).fromNow(true) + ' ago'}</p>
 	{#if $page.url.pathname != '/admin/vacancies'}
@@ -29,7 +29,7 @@
 <style>
 	.grid {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr .5fr .5fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr .5fr .5fr;
 		gap: 1rem;
 
 		background-color: var(--secondary);

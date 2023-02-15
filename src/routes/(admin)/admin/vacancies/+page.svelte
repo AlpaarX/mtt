@@ -12,7 +12,7 @@
 </script>
 
 <h1>Manage vacancies</h1>
-<button on:click={open}>+</button>
+<button class="add" on:click={open}>+</button>
 {#if isOpen}
 	<div class="create">
 		<div class="new-vac">
@@ -43,7 +43,7 @@
 	.create {
 		margin-bottom: 1rem;
 	}
-	button {
+	.add {
 		background-color: #ff705b;
 		color: var(--text-primary);
 		padding: 4px 0;

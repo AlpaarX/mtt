@@ -1,4 +1,5 @@
 import { prisma } from '$lib/server/prisma';
+import { fail } from '@sveltejs/kit';
 
 export const actions = {
 	createVacancy: async ({ request }) => {
@@ -7,10 +8,10 @@ export const actions = {
 		try {
 			await prisma.vacancy.create({
 				data: {
-                    title,
-                    company,
-                    description,
-                    location
+					title,
+					company,
+					description,
+					location
 				}
 			});
 		} catch (err) {

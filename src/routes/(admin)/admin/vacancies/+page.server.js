@@ -11,7 +11,8 @@ export const actions = {
 					title,
 					company,
 					description,
-					location
+					location,
+					
 				}
 			});
 		} catch (err) {
